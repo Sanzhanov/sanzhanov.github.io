@@ -1,5 +1,14 @@
 name: End-to-end tests
-on: push
+
+on:
+  push:
+    branches:
+      - 'main'
+  pull_request:
+    types: [opened, reopened]
+  schedule:
+    - cron: '0 2 * * FRI'
+    
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
