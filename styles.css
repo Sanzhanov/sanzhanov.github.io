@@ -1,0 +1,15 @@
+h1 {
+    color: blueviolet;
+    text-align: center;
+}
+
+h2 {
+    color: brown;
+    text-align: center;
+}
+
+.main-giff {
+        width: 80%;
+        height: auto;
+        vertical-align: middle;
+}
