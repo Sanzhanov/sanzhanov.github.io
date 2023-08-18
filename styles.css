@@ -13,3 +13,7 @@ h2 {
         height: auto;
         vertical-align: middle;
 }
+
+#submit {
+    background-color: beige;
+}
