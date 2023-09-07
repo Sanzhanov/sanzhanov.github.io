@@ -1,51 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alex Sanzhanov</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <h1>Welcome everyone to my web-site!</h1>
+
     <div>
-        <img class="main-giff" src="src/MainGiff.gif" alt="Main Giff">
+      <img class="main-giff" src="src/MainGiff.gif" alt="Main Giff" />
     </div>
-    
+
     <h2>Please provide some information about yourself:</h2>
 
     <form>
-        Please fill in the following form:
-   
-        <div>
-        <br>
-        <input type="text" placeholder="First Name" name="first">
-        <input type="text" placeholder="Last Name" name="last">
-        </div>
+      Please fill in the following form:
 
-        <div>
-            <br>
-            Your gender:
-            <input name="gender" type="radio" value="male"> male
-            <input name="gender" type="radio" value="female"> female
-        </div>
+      <div>
+        <br />
+        <input type="text" placeholder="First Name" name="first" />
+        <input type="text" placeholder="Last Name" name="last" />
+      </div>
 
-        <div>
-            <br>
-            Your country:
-            <input name="country" list="countries" placeholder="Country">
-            <datalist id="countries">
-                <option value="USA">
-                <option value="Russia">
-            </datalist>
-        </div>
+      <div>
+        <br />
+        Your gender:
+        <input name="gender" type="radio" value="male" /> male
+        <input name="gender" type="radio" value="female" /> female
+      </div>
 
-        <div>
-            <br>
-            <input id="submit" type="submit" value="Send">
-        </div>
+      <div>
+        <br />
+        Your country:
+        <input name="country" list="countries" placeholder="Country" />
+        <datalist id="countries">
+          <option value="USA"></option>
+          <option value="Russia"></option>
+        </datalist>
+      </div>
 
-
+      <div>
+        <br />
+        <input id="submit" type="submit" value="Send" />
+      </div>
     </form>
-</body>
+  </body>
 </html>

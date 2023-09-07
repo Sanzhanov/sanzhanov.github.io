@@ -1,19 +1,36 @@
+body {
+  background-color: black;
+}
+
+form {
+  color: pink;
+  text-align: center;
+}
+
 h1 {
-    color: blueviolet;
-    text-align: center;
+  color: blueviolet;
+  text-align: center;
+}
+
+h1:hover {
+  color: wheat;
 }
 
 h2 {
-    color: brown;
-    text-align: center;
+  color: brown;
+  text-align: center;
+}
+
+h2:hover {
+  color: yellow;
 }
 
 .main-giff {
-        width: 80%;
-        height: auto;
-        vertical-align: middle;
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
 }
 
 #submit {
-    background-color: beige;
+  background-color: beige;
 }
