@@ -1,10 +1,12 @@
 body {
   background-color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 form {
-  color: pink;
+  color: whitesmoke;
   text-align: center;
+  font-size: large;
 }
 
 h1 {
@@ -17,7 +19,7 @@ h1:hover {
 }
 
 h2 {
-  color: brown;
+  color: white;
   text-align: center;
 }
 
@@ -29,6 +31,15 @@ h2:hover {
   width: 100%;
   height: auto;
   vertical-align: middle;
+}
+
+.colored-block {
+  display: block;
+  background-color: #fe4066;
+  border-radius: 8px;
+  text-align: center;
+  padding: 30px 20px;
+  margin: 24px 0;
 }
 
 #submit {
