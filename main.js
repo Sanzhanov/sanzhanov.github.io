@@ -31,8 +31,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     console.log(message);
 
-    const TOKEN = "";
-    const CHAT_ID = "";
+    const TOKEN = `${ process.env.TOKEN }`;
+    const CHAT_ID = `${ process.env.CHAT_ID }`;
 
     const url = `https://api.telegram.org/bot${TOKEN}/sendMessage?chat_id=${CHAT_ID}&text=${messageTG}`;
 
