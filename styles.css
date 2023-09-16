@@ -33,7 +33,23 @@ h2:hover {
   vertical-align: middle;
 }
 
-.colored-block {
+.main-photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: auto;
+}
+
+.main-description {
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.user-data {
   display: block;
   background-color: #fe4066;
   border-radius: 8px;
@@ -42,6 +58,22 @@ h2:hover {
   margin: 24px 0;
 }
 
-#submit {
+.user-message {
+  display: block;
+  background-color: #fe4066;
+  border-radius: 8px;
+  text-align: center;
+  padding: 30px 20px;
+  margin: 24px 0;
+}
+
+#submit-message {
   background-color: beige;
+  width: 100px;
+  height: 30px;
+}
+
+#user-message {
+  width: 300px;
+  height: 30px;
 }

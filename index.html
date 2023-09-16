@@ -12,47 +12,82 @@
       <img class="main-giff" src="src/MainGiff.gif" alt="Main Giff" />
     </div>
 
-    <h1>Welcome everyone to my web-site!</h1>
-    <br />
-
-    <h2>Please provide some information about yourself:</h2>
     <br />
     <br />
 
     <div>
-      <form class="colored-block">
-        <h3>Please fill in the following form:</h3>
+      <img class="main-photo" src="src/main-photo.jpeg" alt="Main Photo" />
+    </div>
+    <br />
+
+    <h2 class="main-description">
+      Welcome everyone to my web-site! <br />
+      My name is Alex Sanzhanov. I'm a Software QA Automation Engineer with
+      extensive expertise in automating UI and API tests. I take great pleasure
+      to be actively engaged in different testers communities, discussions and
+      events, mentoring, authoring tech articles in English and Russian. Deeply
+      passionate about automated testing.
+    </h2>
+    <br />
+    <br />
+
+    <div>
+      <form class="user-message">
+        <h3>You can send me a message right here:</h3>
 
         <div>
           <br />
-          <input type="text" placeholder="First Name" name="first" />
-          <input type="text" placeholder="Last Name" name="last" />
+          <input
+            id="user-firstName"
+            type="text"
+            placeholder="First Name"
+            name="first"
+          />
+          <input
+            id="user-lastName"
+            type="text"
+            placeholder="Last Name"
+            name="last"
+          />
         </div>
 
         <div>
           <br />
-          Your gender:
           <input name="gender" type="radio" value="male" /> male
           <input name="gender" type="radio" value="female" /> female
+          <input name="gender" type="radio" value="female" /> other
         </div>
 
         <div>
           <br />
-          Your country:
-          <input name="country" list="countries" placeholder="Country" />
+          <input id="user-country" name="country" list="countries" placeholder="Your country" />
           <datalist id="countries">
             <option value="USA"></option>
             <option value="Russia"></option>
+            <option value="Other"></option>
           </datalist>
+
+          <input
+            id="user-phone"
+            type="text"
+            placeholder="Your phone (optional)"
+            name="phone"
+          />
         </div>
 
         <div>
-          <br/>
-          <input id="submit" type="submit" value="Send"/>
+          <br />
+          <input
+            id="user-message"
+            type="text"
+            placeholder="Type your message here..."
+            name="message"
+          />
         </div>
 
         <div>
-          <h4></h4>
+          <br />
+          <input id="submit-message" type="submit" value="Send" />
         </div>
       </form>
     </div>
